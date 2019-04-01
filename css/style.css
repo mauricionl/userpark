@@ -1,0 +1,191 @@
+:root {
+    
+    /*Pricipais cores*/
+    --div-bg-color-one:#034f81;
+    --div-bg-color-two:#ffcc33;
+
+    --div-bg-color-alert:#dd0016;
+    --div-bg-color-faixas:#ecf6ff;
+
+    --font-color-title: #000;
+    --font-color-text : #fff;
+    
+    /*Fontes do site*/
+    --font-title: 'Quicksand', sans-serif;
+    --font-text: 'Roboto', sans-serif;
+    --font-menu: 'Titillium Web', sans-serif;
+}
+
+body > div, body header, body > footer{
+    display: flex;
+    flex-flow: column;
+}
+body > div{
+    padding: 10px;
+}
+
+h1{
+    font-size: 38px;
+}
+
+h2{
+    font-size: 34px;
+}
+
+h1, h2{
+    font-family: var(--font-title);  
+    color: var(--font-color-title);
+    text-align: center;
+    font-weight: bold;    
+    padding-bottom: 5px;
+}
+
+h3, h4, h5, h6{
+    font-family: --font-text;
+}
+
+a, p, li, td, span {
+    font-size: 14.5px;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;   
+}
+
+.up-align-center{
+    max-width: 1200px;
+    display: flex;       
+    margin: 0 auto;
+}
+.fas, .fab{
+    margin-right: 5px;
+}
+
+.up-buttons{
+    font-family: var(--font-color-text);
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 5px 25px;
+    color: var(--font-color-title);
+}
+
+.up-buttons-color-one{
+    background-color: var(--div-bg-color-one);
+}
+
+.up-buttons-color-two{
+    background-color: var(--div-bg-color-two);
+}
+
+.up-buttons-color-one{
+    background-color: var(--div-bg-color-one);
+}
+
+
+.up-list-horizontal{
+    display: flex;
+}
+
+.up-list-horizontal li{
+    margin: 0 5px;
+}
+
+.up-info .up-links-contato {
+    height: 55px;
+    font-size: 20px;
+    
+}
+.up-info .up-links-contato li a{
+    font-size: 18px;
+    color: var(--font-color-title);
+    font-weight: 500;
+}
+
+.up-info .up-links-contato .fa-phone{
+    color: var(--div-bg-color-one);
+
+}
+
+.up-info .up-links-contato .fa-whatsapp{
+    color: #6b9c15;
+}
+
+.up-info .up-links-contato .up-buttons{
+    font-size: 18px;
+    font-weight: 500;
+    padding: 5px 10px;
+}
+
+.up-info > .up-align-center{
+    justify-content: right;
+    flex-flow: row-reverse;
+}
+
+.up-info .up-links-contato li{
+    display: flex;
+    align-items: center;
+}
+
+.up-menu-logo{
+    background-color: var(--div-bg-color-one);
+    color : var(--font-color-text);
+    height: 75px;
+    background-color: var(--div-bg-color-one);
+    color: var(--font-color-text);
+    height: 75px;
+    box-shadow: 0px 2px 4px #b5b5b5;
+}
+
+}
+.up-menu-logo li{
+    color: var(--font-color-text);
+    margin: 0 10px;
+}
+
+.up-menu-logo li:nth-last-child(){
+    margin-right: 0px !important;
+}
+
+
+.up-menu-logo li a{
+    color: var(--font-color-text);
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    font-family: var(--font-menu);
+    font-weight: 500;
+}
+
+.up-menu-logo .up-menu{
+    height: 75px;
+}
+
+.up-menu-logo .up-align-center{
+    justify-content: space-between;
+    align-items: center;
+}
+
+.up-menu-logo .up-logo img{
+    margin-top: -25px;
+}
+
+.up-faixa{
+    height: 250px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+} 
+
+.up-faixa-color-one{
+    background-color : var(--div-bg-color-one);
+}
+
+.up-faixa-color-two{
+    background-color : var(--div-bg-color-two);
+}
+
+
+footer{
+    height: 300px;
+    background-color: var(--div-bg-color-one);
+}
