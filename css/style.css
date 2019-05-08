@@ -86,7 +86,7 @@ a, p, li, td, span {
 }
 
 .up-list-horizontal li{
-    margin: 0 5px;
+    margin: 0 10px;
 }
 
 .up-info .up-links-contato {
@@ -188,7 +188,7 @@ a, p, li, td, span {
 
 .up-banner-background{
     background-image: linear-gradient(to bottom, #26527f, #2a5c8e, #2e669d, #3170ad, #357abd);
-    height: 500px;
+    height: 450px;
 }
 
 
@@ -214,12 +214,37 @@ footer{
 }
 
 .up-banner .up-info-and-form h2{
-    font-size: 50px;
+    font-size: 45px;
     font-family: var(--font-menu);
     color: #8dcbff;
-    font-weight: 500;
+    font-weight: 600;
     text-align: left;
 }
+
+.up-info-and-form form{
+    margin-top: 40px;
+}
+
+.up-info-and-form form p{
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.up-baner-boneco {
+    text-align: center;
+}
+
+.up-baner-boneco img {
+    position: relative;
+    top: 60px;
+}
+
+.up-info-and-form button{
+    font-size : 16px;
+    cursor: pointer;
+}
+
+
 
 .up-banner form input[type="email"]{
     height: 50px;
@@ -247,7 +272,107 @@ footer{
     right: 30px;
 }
 
-.up-servicos-list{
+.up-servicos-list {
     display: flex;
-    font-family: 
+    margin-top: 30px;
+    width: 100%;
+    font-family:var(--font-menu); 
+}
+.up-servicos.up-align-center {
+    padding: 100px 0;
+}
+
+.up-servicos .up-head-section h1 {
+    top: -25px;
+    position: relative;
+    background-color: #fff;
+    display: inline;
+    padding: 10px;
+    font-size: 45px;
+    font-family: var(--font-menu);
+    padding-bottom: 0px;
+}
+.up-servicos .up-head-section {
+    border-top: 1px solid #989898;
+    text-align: center;
+}
+p.up-text-info-section{
+    font-size: 20px;
+    font-family: var(--font-menu);
+}
+.up-servicos-list li {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    border-right: 3px solid #dadada;
+    box-sizing: border-box;
+    padding: 20px;
+}
+.up-servicos-list li:last-child {
+    border-right: none;
+}
+.up-servicos-list li a{
+    text-align: center;
+    height: 155px;
+    width: 100%;
+    position: relative;
+}
+.up-servicos-list li a h4{
+    font-size: 22px;
+    font-family: var(--font-menu);
+    color: #2b2c4a;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    font-weight: bold;
+}
+.up-faixa p{
+    font-size: 40px;
+    font-family: var(--font-menu);
+    color: #fff;
+    max-width: 1200px;
+    text-align: center;
+
+}
+.up-button-faixa{
+    width: 300px;
+    height: 50px;
+    font-family: var(--font-menu);
+    text-align: center;
+    vertical-align: middle;
+    display: flex;
+    background-color: #ffcc33;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    font-size: 21px;
+    color: #000;
+    margin-top: 20px;
+}
+
+.up-carrosel .up-list-horizontal {
+    display: flex;
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.up-carrosel .up-list-horizontal li {
+    margin: 0 10px;
+    width: 20%;
+}
+
+
+.up-carrosel .up-list-horizontal li a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+.up-carrosel .up-list-horizontal li a span{
+    font-size: 20px;
+    font-family: font-family: var(--font-menu);
 }
