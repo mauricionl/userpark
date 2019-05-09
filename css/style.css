@@ -474,3 +474,22 @@ a.up-logo-user-park img {
     color: #fff;
 
 }
+
+.up-faixa .up-align-center , .up-texto .up-align-center {
+    flex-direction: column;
+}
+
+.up-texto .up-align-center {
+    align-items: normal;
+}
+
+
+.up-texto h1{
+    text-align: left;
+    font-family: var(--font-menu);
+}
+
+.up-texto p{
+    font-size: 16px;
+    margin: 5px 0;   
+}
