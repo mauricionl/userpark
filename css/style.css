@@ -197,7 +197,7 @@ a, p, li, td, span {
 }
 
 footer{
-    height: 300px;
+    height: 310px;
     background-color: var(--div-bg-color-one);
 }
 
@@ -281,8 +281,7 @@ footer{
 .up-servicos.up-align-center {
     padding: 100px 0;
 }
-
-.up-servicos .up-head-section h1 {
+ .up-head-section h1 {
     top: -25px;
     position: relative;
     background-color: #fff;
@@ -292,13 +291,14 @@ footer{
     font-family: var(--font-menu);
     padding-bottom: 0px;
 }
-.up-servicos .up-head-section {
+.up-head-section {
     border-top: 1px solid #989898;
     text-align: center;
 }
 p.up-text-info-section{
     font-size: 20px;
     font-family: var(--font-menu);
+    text-align: center;
 }
 .up-servicos-list li {
     width: 25%;
@@ -334,20 +334,41 @@ p.up-text-info-section{
     text-align: center;
 
 }
-.up-button-faixa{
+.up-button{
     width: 300px;
     height: 50px;
     font-family: var(--font-menu);
     text-align: center;
     vertical-align: middle;
     display: flex;
-    background-color: #ffcc33;
     align-items: center;
     justify-content: center;
     border-radius: 20px;
     font-size: 21px;
-    color: #000;
     margin-top: 20px;
+}
+
+.up-button-amarelo{
+    background-color: #ffcc33;    
+    color: #000;
+}
+
+.up-button-vermelho{
+    background-color: #bb001d;    
+    color: #fff;
+}
+
+.up-button-azul{
+    background-color: #27517f;    
+    color: #fff;
+}
+
+.up-buttons-lado {
+    display: flex;
+}
+
+.up-buttons-lado a {
+    margin: 20px 25px;
 }
 
 .up-carrosel .up-list-horizontal {
@@ -358,9 +379,19 @@ p.up-text-info-section{
 
 .up-carrosel .up-list-horizontal li {
     margin: 0 10px;
+    position: relative;
     width: 20%;
 }
+.up-carrosel .up-list-horizontal li:last-child, .up-carrosel .up-list-horizontal li:first-child{
+    top: 270px;
 
+}
+a.up-logo-user-park {
+    margin: 35px;
+}
+.up-carrosel .up-list-horizontal li:nth-child(2), .up-carrosel .up-list-horizontal li:nth-child(4){
+    top: 133px;
+}
 
 .up-carrosel .up-list-horizontal li a {
     display: flex;
@@ -368,11 +399,78 @@ p.up-text-info-section{
     justify-content: center;
     align-items: center;
     text-align: center;
+    color: #000;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.up-carrosel .up-list-horizontal li a span {
+   margin-top: 5px;
+   font-size: 20px;
+   font-family: var(--font-menu);
+}
+
+a.up-logo-user-park img {
+    height: 225px;
+}
+
+.up-footer.up-align-center {
+    width: 1200px;    
+    flex-direction: column;
+ }
+.up-footer .footer-sections {
+    display: flex;
+    width: 100%;
+    margin: 20px 0;
+    padding: 20px 0;
+    border-top: solid 1px #9ccbff;
+    box-sizing: border-box;
+    border-bottom: solid 1px #9ccbff;
 }
 
 
+.up-footer-sections h3 {
+    font-size: 25px;
+    color: #9ccbff;
+    font-family: var(--font-menu);
+}
 
-.up-carrosel .up-list-horizontal li a span{
-    font-size: 20px;
-    font-family: font-family: var(--font-menu);
+.up-footer-sections .up-list-horizontal {
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.up-footer-sections .up-list-horizontal li a {
+    font-size: 18px;
+    color: #fff;
+}
+
+.up-footer-sections .up-list-horizontal li {
+    margin: 5px 0px;
+}
+
+.up-footer-sections {
+    width: 25%;
+}
+
+.footer-telefones h4 {
+    font-size: 24px;
+    margin-top: 10px;
+    margin-bottom: 5px;    
+    color: #FFf;
+    font-family: var(--font-menu);
+    font-weight: bold;
+}
+
+.footer-telefones p {
+    font-size: 22px;  
+    color: #fce317;
+}
+.up-carrosel.up-align-center {
+    padding: 60px 0px;
+}
+.up-direitos p {
+    font-size: 12px;
+    color: #fff;
+
 }
